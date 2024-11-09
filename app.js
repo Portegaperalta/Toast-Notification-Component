@@ -25,3 +25,12 @@ warningButton.addEventListener('click', () => {
 errorButton.addEventListener('click', () => {
   errorNotification.style.display = 'flex'
 })
+
+for (let i = 0; i < quitNotificationButton.length; i++) {
+  quitNotificationButton[i].addEventListener('click', () => {
+    successNotification.style.display = 'none'
+    infoNotification.style.display = 'none'
+    warningNotification.style.display = 'none'
+    errorNotification.style.display = 'none'
+  })
+}

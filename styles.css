@@ -14,6 +14,7 @@ body {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .notifications-container {
@@ -38,8 +39,8 @@ h2 {
 }
 
 p {
-  padding-left: 5px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .btn-success h2 {
@@ -117,8 +118,8 @@ p {
 .notification-bars {
   display: flex;
   flex-direction: column;
-  position: relative;
-  right: 100px;
+  position: absolute;
+  left: 400px;
 }
 
 .success-notification-bar {
@@ -132,6 +133,7 @@ p {
 
 .success-icon {
   color: var(--clr-sucess);
+  padding-left: 10px;
 }
 
 .info-notification-bar {
@@ -145,6 +147,7 @@ p {
 
 .info-icon {
   color: var(--clr-info);
+  padding-left: 10px;
 }
 
 .warning-notification-bar {
@@ -158,6 +161,7 @@ p {
 
 .warning-icon {
   color: var(--clr-warning);
+  padding-left: 10px;
 }
 
 .error-notification-bar {
@@ -171,6 +175,7 @@ p {
 
 .error-icon {
   color: var(--clr-error);
+  padding-left: 10px;
 }
 
 .quit-btn {
