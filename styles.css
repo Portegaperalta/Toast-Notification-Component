@@ -122,7 +122,7 @@ p {
 }
 
 .success-notification-bar {
-  display: flex;
+  display: none;
   align-items: center;
   background-color: var(--clr-white);
   margin-bottom: 20px;
@@ -135,7 +135,7 @@ p {
 }
 
 .info-notification-bar {
-  display: flex;
+  display: none;
   align-items: center;
   background-color: var(--clr-white);
   margin-bottom: 20px;
@@ -148,7 +148,7 @@ p {
 }
 
 .warning-notification-bar {
-  display: flex;
+  display: none;
   align-items: center;
   background-color: var(--clr-white);
   margin-bottom: 20px;
@@ -161,7 +161,7 @@ p {
 }
 
 .error-notification-bar {
-  display: flex;
+  display: none;
   align-items: center;
   background-color: var(--clr-white);
   margin-bottom: 20px;
